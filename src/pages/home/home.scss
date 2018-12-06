@@ -1,3 +1,28 @@
 page-home {
+  table {
+    width: 100%;
+  }
+  thead {
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
 
+  td {
+    width: 50%;
+    height: 30px;
+  }
+
+  tr {
+    border-bottom: #000000 1px solid;
+  }
+
+  .td-name {
+    background-color: rgba($color: red, $alpha: 0.3);
+  }
+
+  .td-lastname {
+    background-color: rgba($color: yellow, $alpha: 0.5);
+  }
 }
